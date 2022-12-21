@@ -1,0 +1,12 @@
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: auto;
+  height: 2rem;
+  line-height: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

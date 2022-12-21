@@ -1,0 +1,14 @@
+.header {
+  height: 5rem;
+  width: auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo {
+  width: auto;
+  height: 3rem;
+  cursor: pointer;
+}
