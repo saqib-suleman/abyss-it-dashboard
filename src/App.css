@@ -3,19 +3,3 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
-.container {
-  width: 80vw;
-  height: 90vh;
-  margin: 0 10vw 0 10vw;
-  /* background: aqua; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.container span {
-  display: flex;
-  justify-content: space-between;
-}
