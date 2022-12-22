@@ -15,8 +15,6 @@ function Pakistan() {
       <CardsWrapper>
         <Card text={"Admin Helpdesk"} link={links.admin_helpdesk} />
         <Card text={"IT Service Desk"} link={links.it_service_desk} />
-        {/* <Card text={"Admin Helpdesk"} link={"/pak/admin_helpdesk"} />
-        <Card text={"IT Service Desk"} link={"it_service_desk"} /> */}
       </CardsWrapper>
     </div>
   );
