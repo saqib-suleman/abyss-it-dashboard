@@ -1,3 +1,14 @@
+@keyframes fadeInOutAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .card {
   height: 10rem;
   width: 25rem;
@@ -11,4 +22,13 @@
   border-radius: 1rem;
   text-decoration: none;
   cursor: pointer;
+  animation: fadeInOutAnimation 1s;
+  animation-direction: forwards;
+  animation-timing-function: ease-in-out;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 14px 12px 18px -5px rgba(71, 71, 71, 0.75);
 }
