@@ -6,7 +6,7 @@ const links = {
   admin_helpdesk:
     "https://abyss-solutions.atlassian.net/servicedesk/customer/portal/5",
   it_service_desk:
-    "https://abyss-solutions.atlassian.net/servicedesk/customer/portal/5",
+    "https://abyss-solutions.atlassian.net/servicedesk/customer/portal/2",
 };
 
 function Pakistan() {
