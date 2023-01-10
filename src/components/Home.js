@@ -2,12 +2,10 @@ import { React } from "react";
 import Card from "./Card";
 import CardsWrapper from "./CardsWrapper";
 
-//regions array
-
 const regions = [
   { region: "Pakistan", isInternal: true, link: "/pak" },
   { region: "Australia", isInternal: true, link: "/aus" },
-  { region: "USA", isInternal: true, link: "/us" },
+  { region: "North America", isInternal: true, link: "/na" },
   { region: "Middle East", isInternal: true, link: "/me" },
   { region: "Europe", isInternal: true, link: "/eu" },
   { region: "South Africa", isInternal: true, link: "/sa" },

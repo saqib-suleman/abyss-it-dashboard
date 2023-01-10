@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/pak" element={<Pakistan />} />
         <Route path="/sa" element={<ComingSoon />} />
-        <Route path="/us" element={<ComingSoon />} />
+        <Route path="/na" element={<ComingSoon />} />
         <Route path="/me" element={<ComingSoon />} />
         <Route path="/eu" element={<ComingSoon />} />
         <Route path="/aus" element={<ComingSoon />} />
